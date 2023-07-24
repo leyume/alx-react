@@ -1,3 +1,4 @@
+// JQuery and Lodash
 import $ from 'jquery';
 import _ from 'lodash';
 
