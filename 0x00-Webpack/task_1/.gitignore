@@ -1,4 +1,4 @@
 node_modules
 package-lock.json
 public/bundle.js
-public/bundle.js.LICENSE
+public/bundle.js.LICENSE.txt
