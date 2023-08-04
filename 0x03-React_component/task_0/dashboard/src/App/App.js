@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.css';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
-import Notification from '../Notifications/Notifications';
-import Login from '../Login/Login';
-import CourseList from '../CourseList/CourseList';
-import { getLatestNotification } from '../utils/utils';
-import PropTypes from 'prop-types';
+import React from "react";
+import "./App.css";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import Notification from "../Notifications/Notifications";
+import Login from "../Login/Login";
+import CourseList from "../CourseList/CourseList";
+import { getLatestNotification } from "../utils/utils";
+import PropTypes from "prop-types";
 
 
 class App extends React.Component {
