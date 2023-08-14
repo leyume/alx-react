@@ -11,7 +11,7 @@ const normalRowStyle = {
 
 const CourseListRow = ({ isHeader, textFirstCell, textSecondCell }) => {
 	return (
-		<tr style={normalRowStyle}>
+		<tr style={isHeader ? headerStyle : normalRowStyle}>
 			{isHeader ? (
 				textSecondCell === null ? (
 					<th style={headerStyle} colSpan={2}>
